@@ -14,7 +14,7 @@ NB: This will only work in deploying a single instance with lamp stack.
 ##### ec2-lamp.yml
 ```sh
 ---
- - name: "Deploying ec2 instances"
+ - name: "Deploying ec2 instance with LAMP Stack"
    hosts: localhost
 
    vars:
